@@ -4,6 +4,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Run a one-line script
+    - name: Run a one-line script
       if: github.ref == 'refs/heads/master'
       run: echo The value of "github.ref" is "refs/heads/master"
